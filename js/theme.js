@@ -22,7 +22,6 @@ function initTheme() {
 }
 
 function toggleTheme() {
-  console.log(`toggle theme`);
   document.body.classList.toggle('dark');
   localStorage.setItem(
     'theme',
