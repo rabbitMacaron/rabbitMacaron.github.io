@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Rabbit Macaron 개발 블로그</title>
+    <link>http://rabbitMacaron.github.io/</link>
+    
+    <atom:link href="http://rabbitmacaron.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>개발 공부</description>
+    <pubDate>Sun, 25 Jul 2021 10:43:50 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Hexo blog test</title>
+      <link>http://rabbitmacaron.github.io/2021/07/25/%ED%85%8C%EC%8A%A4%ED%8A%B8/</link>
+      <guid>http://rabbitmacaron.github.io/2021/07/25/%ED%85%8C%EC%8A%A4%ED%8A%B8/</guid>
+      <pubDate>Sun, 25 Jul 2021 10:02:24 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h2 id=&quot;테스트&quot;&gt;&lt;a href=&quot;#테스트&quot; class=&quot;headerlink&quot; title=&quot;테스트&quot;&gt;&lt;/a&gt;테스트&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://rabbitmacaron.github.io/&quot;&gt;Hexo blog&lt;/a&gt; !&lt;br&gt;갈 길이</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h2 id="테스트"><a href="#테스트" class="headerlink" title="테스트"></a>테스트</h2><p><a href="https://rabbitmacaron.github.io/">Hexo blog</a> !<br>갈 길이 멀지만 한걸음부터ㅎㅎ</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$hexo</span> new post <span class="string">&#x27;포스트명&#x27;</span></span><br></pre></td></tr></table></figure><p>바로 포스팅되지만<br>_config.yml 에서 ‘post’가 아닌 ‘draft’로 변경해주면<br>초안으로 작성할 수 있다.<br>(초안으로 작성된 글은 로컬 서버에서만 확인 가능)</p>]]></content:encoded>
+      
+      
+      
+      
+      <comments>http://rabbitmacaron.github.io/2021/07/25/%ED%85%8C%EC%8A%A4%ED%8A%B8/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://rabbitmacaron.github.io/2021/07/25/hello-world/</link>
+      <guid>http://rabbitmacaron.github.io/2021/07/25/hello-world/</guid>
+      <pubDate>Sun, 25 Jul 2021 06:56:29 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content:encoded>
+      
+      
+      
+      
+      <comments>http://rabbitmacaron.github.io/2021/07/25/hello-world/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
