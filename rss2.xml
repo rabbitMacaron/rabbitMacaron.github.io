@@ -9,7 +9,7 @@
     <atom:link href="http://rabbitmacaron.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>개발 공부</description>
-    <pubDate>Tue, 17 Aug 2021 14:57:31 GMT</pubDate>
+    <pubDate>Tue, 17 Aug 2021 15:08:38 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -20,16 +20,15 @@
       
         
         
-      <description>
+      <description>&lt;p&gt;Git에 push하다 갑자기 발생한 에러:bomb:  &lt;/p&gt;
+&lt;img src=&quot;/2021/08/17/git-receive-pack/eclipse-gitError1.png&quot; class=&quot;&quot; title=&quot;Error1&quot;&gt;
 
-&lt;p&gt;Git에 push하다 갑자기 발생한 에러:bomb:  &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;저번주까지 문제 없다가 갑자기 에러가 발생해서 너무 당황스러웠다..&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;에러메세지를 보고&lt;br&gt;이클립스에 저장해뒀던 Git ID/PW 정보를&lt;br&gt;다</description>
+&lt;p&gt;&lt;em&gt;저번주까지 문</description>
         
       
       
       
-      <content:encoded><![CDATA[<p>Git에 push하다 갑자기 발생한 에러:bomb:  </p><p><em>저번주까지 문제 없다가 갑자기 에러가 발생해서 너무 당황스러웠다..</em></p><p>에러메세지를 보고<br>이클립스에 저장해뒀던 Git ID/PW 정보를<br>다시 입력해보았지만 여전히 에러가 발생했다 ..</p><h2 id="heavy-check-mark-에러-원인"><a href="#heavy-check-mark-에러-원인" class="headerlink" title=":heavy_check_mark: 에러 원인"></a>:heavy_check_mark: 에러 원인</h2><img src="/2021/08/17/git-receive-pack/git_EMail.png" class="" title="GitMail"><p>Git Hub에서는<br>Git 작업 인증 시, 암호를 사용하는 인증은 더 이상 사용할 수 없고<br>곧 작동하지않을거라는 메일을 보냈었는데 확인을 못 했다… :disappointed_relieved:  </p><p>이 문제의 해결방법은<br>이클립스에 저장해뒀던 정보를 수정하는 것이 맞다.<br>다만, 비밀번호가 아닌 개인토큰을 입력해야한다</p><h2 id="key-해결방법"><a href="#key-해결방법" class="headerlink" title=":key: 해결방법"></a>:key: 해결방법</h2><p>1.</p>   <p>Git에 로그인 한 후, 프로필 클릭 &gt; Settings 에 접근한다.</p><p>2.</p><p>좌측에 있는 Developer settings 에 접근한다.</p><p>3.</p><p>(해당 사진 이후의 사진들은,<br>이미 토큰 생성 후 캡쳐했기 때문에 화면에 차이가 있다!!!)</p><p>좌측의 Personal access tokens &gt; Generate new token 버튼을 클릭한다.</p><p>4.</p><p>Note : 토큰의 이름을 작성한다. (본인이 구분할만한 설명 혹은 용도를 작성하면 될 거 같다)<br>Select scopes : 항목들 중 부여할 권한을 선택한다</p><p>하단의 Generate token 버튼을 클릭한다.</p><p>5.</p><p>Personal Access Token이 생성되었다!!!<br>해당 화면과 다르게, token의 값이 화면에 보일 것이다.</p><h1 id="생성된-토큰값은-다시-확인할-수-없으니-값을-복사해서-잘-보관해야한다"><a href="#생성된-토큰값은-다시-확인할-수-없으니-값을-복사해서-잘-보관해야한다" class="headerlink" title="생성된 토큰값은 다시 확인할 수 없으니 값을 복사해서 잘 보관해야한다"></a>생성된 토큰값은 다시 확인할 수 없으니 값을 복사해서 잘 보관해야한다</h1><p>6.</p><p>이클립스로 돌아와서,<br>상단의 window &gt; preferences 에 접근한 후, General &gt; Security &gt; Contents 를 클릭한다.<br>GIT을 펼쳐서 저장해뒀던 GIT ID/PW를 삭제(delete)한다.</p><p>7.</p><p>다시 Git에 Push 혹은 Pull을 시도할 경우,<br>Git ID/PW를 입력하는 창에서 ID와 personal token을 입력한다.</p><p>해결 완료 :blush: </p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>Git에 push하다 갑자기 발생한 에러:bomb:  </p><img src="/2021/08/17/git-receive-pack/eclipse-gitError1.png" class="" title="Error1"><p><em>저번주까지 문제 없다가 갑자기 에러가 발생해서 너무 당황스러웠다..</em></p><p>에러메세지를 보고<br>이클립스에 저장해뒀던 Git ID/PW 정보를<br>다시 입력해보았지만 여전히 에러가 발생했다 ..</p><h2 id="heavy-check-mark-에러-원인"><a href="#heavy-check-mark-에러-원인" class="headerlink" title=":heavy_check_mark:에러 원인"></a>:heavy_check_mark:에러 원인</h2><img src="/2021/08/17/git-receive-pack/git_EMail.png" class="" title="GitMail"><p>Git Hub에서는<br>Git 작업 인증 시, 암호를 사용하는 인증은 더 이상 사용할 수 없고<br>곧 작동하지않을거라는 메일을 보냈었는데 확인을 못 했다… :disappointed_relieved:  </p><p>이 문제의 해결방법은<br>이클립스에 저장해뒀던 정보를 수정하는 것이 맞다.<br>다만, 비밀번호가 아닌 개인토큰을 입력해야한다</p><h2 id="key-해결방법"><a href="#key-해결방법" class="headerlink" title=":key:해결방법"></a>:key:해결방법</h2><p>1.</p><img src="/2021/08/17/git-receive-pack/eclipse-gitError2.png" class="" title="Error2">   <p>Git에 로그인 한 후, 프로필 클릭 &gt; Settings 에 접근한다.</p><p>2.</p><img src="/2021/08/17/git-receive-pack/eclipse-gitError3.png" class="" title="Error3"><p>좌측에 있는 Developer settings 에 접근한다.</p><p>3.</p><img src="/2021/08/17/git-receive-pack/eclipse-gitError4.png" class="" title="Error4"><p>(해당 사진 이후의 사진들은,<br>이미 토큰 생성 후 캡쳐했기 때문에 화면에 차이가 있다!!!)</p><p>좌측의 Personal access tokens &gt; Generate new token 버튼을 클릭한다.</p><p>4.</p><img src="/2021/08/17/git-receive-pack/eclipse-gitError5.png" class="" title="Error5"><p>Note : 토큰의 이름을 작성한다. (본인이 구분할만한 설명 혹은 용도를 작성하면 될 거 같다)<br>Select scopes : 항목들 중 부여할 권한을 선택한다</p><p>하단의 Generate token 버튼을 클릭한다.</p><p>5.</p><img src="/2021/08/17/git-receive-pack/eclipse-gitError6.png" class="" title="Error6"><p>Personal Access Token이 생성되었다!!!<br>해당 화면과 다르게, token의 값이 화면에 보일 것이다.</p><h1 id="생성된-토큰값은-다시-확인할-수-없으니-값을-복사해서-잘-보관해야한다"><a href="#생성된-토큰값은-다시-확인할-수-없으니-값을-복사해서-잘-보관해야한다" class="headerlink" title="생성된 토큰값은 다시 확인할 수 없으니 값을 복사해서 잘 보관해야한다"></a>생성된 토큰값은 다시 확인할 수 없으니 값을 복사해서 잘 보관해야한다</h1><p>6.</p><img src="/2021/08/17/git-receive-pack/eclipse-gitError7.png" class="" title="Error7"><p>이클립스로 돌아와서,<br>상단의 window &gt; preferences 에 접근한 후, General &gt; Security &gt; Contents 를 클릭한다.<br>GIT을 펼쳐서 저장해뒀던 GIT ID/PW를 삭제(delete)한다.</p><p>7.</p><img src="/2021/08/17/git-receive-pack/eclipse-gitError8.png" class="" title="Error8"><p>다시 Git에 Push 혹은 Pull을 시도할 경우,<br>Git ID/PW를 입력하는 창에서 ID와 personal token을 입력한다.</p><p>해결 완료:blush:  </p>]]></content:encoded>
       
       
       
