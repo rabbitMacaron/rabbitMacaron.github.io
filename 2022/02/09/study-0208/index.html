@@ -1,6 +1,6 @@
 <!doctype html>
-<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>02/08 공부기록! - Rabbit Macaron 개발 블로그</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Rabbit Macaron 개발 블로그"><meta name="msapplication-TileImage" content="/img/logo_gastly.jpg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Rabbit Macaron 개발 블로그"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="📚02&amp;#x2F;08 ✔ 매일 봤던 것들 정리하기 내가 공부하던 것, 질문받거나 질문했던 것까지 다 정리할거라 내용에 일관성은 없겠지만!! 정리하면서 한 번 더 보는 시간을 가져야지😃      💬DBCP가 뭐예요? 자바에서 DB 커넥션을 할 때 사용하는 방법 중 하나로, 다른 방법들로는 JDBC, JNDI가 있다.   ❔ Connection과 Connec"><meta property="og:type" content="blog"><meta property="og:title" content="02/08 공부기록!"><meta property="og:url" content="http://rabbitmacaron.github.io/2022/02/09/study-0208/"><meta property="og:site_name" content="Rabbit Macaron 개발 블로그"><meta property="og:description" content="📚02&amp;#x2F;08 ✔ 매일 봤던 것들 정리하기 내가 공부하던 것, 질문받거나 질문했던 것까지 다 정리할거라 내용에 일관성은 없겠지만!! 정리하면서 한 번 더 보는 시간을 가져야지😃      💬DBCP가 뭐예요? 자바에서 DB 커넥션을 할 때 사용하는 방법 중 하나로, 다른 방법들로는 JDBC, JNDI가 있다.   ❔ Connection과 Connec"><meta property="og:locale" content="ko_KR"><meta property="og:image" content="http://rabbitmacaron.github.io/img/og_image.png"><meta property="article:published_time" content="2022-02-08T16:51:16.482Z"><meta property="article:modified_time" content="2022-02-08T20:17:09.653Z"><meta property="article:author" content="rabbit macaron"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://rabbitmacaron.github.io/2022/02/09/study-0208/"},"headline":"02/08 공부기록!","image":["http://rabbitmacaron.github.io/img/og_image.png"],"datePublished":"2022-02-08T16:51:16.482Z","dateModified":"2022-02-08T20:17:09.653Z","author":{"@type":"Person","name":"rabbit macaron"},"publisher":{"@type":"Organization","name":"Rabbit Macaron 개발 블로그","logo":{"@type":"ImageObject","url":"http://rabbitmacaron.github.io/img/logo_gastly.jpg"}},"description":"📚02&#x2F;08 ✔ 매일 봤던 것들 정리하기 내가 공부하던 것, 질문받거나 질문했던 것까지 다 정리할거라 내용에 일관성은 없겠지만!! 정리하면서 한 번 더 보는 시간을 가져야지😃      💬DBCP가 뭐예요? 자바에서 DB 커넥션을 할 때 사용하는 방법 중 하나로, 다른 방법들로는 JDBC, JNDI가 있다.   ❔ Connection과 Connec"}</script><link rel="canonical" href="http://rabbitmacaron.github.io/2022/02/09/study-0208/"><link rel="icon" href="/img/logo_gastly.jpg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="preconnect" href="https://fonts.gstatic.com"><link rel="stylesheet"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/rss2.xml" title="Rabbit Macaron 개발 블로그" type="application/rss+xml">
-</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo_gastly.jpg" alt="Rabbit Macaron 개발 블로그" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item search" title="검색" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-9-tablet is-9-desktop is-9-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time datetime="2022-02-08T16:51:16.482Z" title="2022. 2. 9. 오전 1:51:16">2022-02-09</time>&nbsp;게시 됨</span><span class="level-item"><time datetime="2022-02-08T20:17:09.653Z" title="2022. 2. 9. 오전 5:17:09">2022-02-09</time>&nbsp;업데이트 됨</span><span class="level-item">19분안에 읽기 (약 2816 단어)</span></div></div><h1 class="title is-3 is-size-4-mobile">02/08 공부기록!</h1><div class="content"><br>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>02/08 공부기록! - Rabbit Macaron 개발 블로그</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Rabbit Macaron 개발 블로그"><meta name="msapplication-TileImage" content="/img/logo_gastly.jpg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Rabbit Macaron 개발 블로그"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="📚02&amp;#x2F;08 ✔ 매일 봤던 것들 정리하기 내가 공부하던 것, 질문받거나 질문했던 것까지 다 정리할거라 내용에 일관성은 없겠지만!! 정리하면서 한 번 더 보는 시간을 가져야지😃      💬DBCP가 뭐예요? 자바에서 DB 커넥션을 할 때 사용하는 방법 중 하나로, 다른 방법들로는 JDBC, JNDI가 있다.     ❔ Connection과 Conn"><meta property="og:type" content="blog"><meta property="og:title" content="02/08 공부기록!"><meta property="og:url" content="http://rabbitmacaron.github.io/2022/02/09/study-0208/"><meta property="og:site_name" content="Rabbit Macaron 개발 블로그"><meta property="og:description" content="📚02&amp;#x2F;08 ✔ 매일 봤던 것들 정리하기 내가 공부하던 것, 질문받거나 질문했던 것까지 다 정리할거라 내용에 일관성은 없겠지만!! 정리하면서 한 번 더 보는 시간을 가져야지😃      💬DBCP가 뭐예요? 자바에서 DB 커넥션을 할 때 사용하는 방법 중 하나로, 다른 방법들로는 JDBC, JNDI가 있다.     ❔ Connection과 Conn"><meta property="og:locale" content="ko_KR"><meta property="og:image" content="http://rabbitmacaron.github.io/img/og_image.png"><meta property="article:published_time" content="2022-02-08T16:51:16.482Z"><meta property="article:modified_time" content="2022-02-08T20:25:05.589Z"><meta property="article:author" content="rabbit macaron"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://rabbitmacaron.github.io/2022/02/09/study-0208/"},"headline":"02/08 공부기록!","image":["http://rabbitmacaron.github.io/img/og_image.png"],"datePublished":"2022-02-08T16:51:16.482Z","dateModified":"2022-02-08T20:25:05.589Z","author":{"@type":"Person","name":"rabbit macaron"},"publisher":{"@type":"Organization","name":"Rabbit Macaron 개발 블로그","logo":{"@type":"ImageObject","url":"http://rabbitmacaron.github.io/img/logo_gastly.jpg"}},"description":"📚02&#x2F;08 ✔ 매일 봤던 것들 정리하기 내가 공부하던 것, 질문받거나 질문했던 것까지 다 정리할거라 내용에 일관성은 없겠지만!! 정리하면서 한 번 더 보는 시간을 가져야지😃      💬DBCP가 뭐예요? 자바에서 DB 커넥션을 할 때 사용하는 방법 중 하나로, 다른 방법들로는 JDBC, JNDI가 있다.     ❔ Connection과 Conn"}</script><link rel="canonical" href="http://rabbitmacaron.github.io/2022/02/09/study-0208/"><link rel="icon" href="/img/logo_gastly.jpg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="preconnect" href="https://fonts.gstatic.com"><link rel="stylesheet"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/rss2.xml" title="Rabbit Macaron 개발 블로그" type="application/rss+xml">
+</head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo_gastly.jpg" alt="Rabbit Macaron 개발 블로그" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item search" title="검색" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-9-tablet is-9-desktop is-9-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time datetime="2022-02-08T16:51:16.482Z" title="2022. 2. 9. 오전 1:51:16">2022-02-09</time>&nbsp;게시 됨</span><span class="level-item"><time datetime="2022-02-08T20:25:05.589Z" title="2022. 2. 9. 오전 5:25:05">2022-02-09</time>&nbsp;업데이트 됨</span><span class="level-item">19분안에 읽기 (약 2816 단어)</span></div></div><h1 class="title is-3 is-size-4-mobile">02/08 공부기록!</h1><div class="content"><br>
 <br>
 <h3> 📚02/08</h3><br>
 ✔ 매일 봤던 것들 정리하기<br>
@@ -12,27 +12,35 @@
 <br>
 <h2>💬DBCP가 뭐예요?</h2>
 자바에서 DB 커넥션을 할 때 사용하는 방법 중 하나로,
-다른 방법들로는 JDBC, JNDI가 있다. <br>
+다른 방법들로는 JDBC, JNDI가 있다. 
 <br>
-❔ Connection과 Connection pool<br>
+<br>
+<br>
+<h3>❔ Connection과 Connection pool</h3><br>
 DriveManager.getConnection()은 실제 프로그램과 데이터베이스를 네트워크상에서 연결해주는 메소드이다. Connection은 네트워크상의 연결 자체를 의미한다.<br>
-Connection pool은 데이터베이스와 연결된 Connection객체를 사용하고 작업이 끝나면 다시 반환하는 것을 말한다. Connection pool을 사용하면 풀 속에 미리 Connection이 생성되어 있기 때문에 Connection을 생성하는 데 드는 연결시간이 소비되지않는다. 또, Connection 재사용이 가능하기 때문에 사용자가 접속할 때마다 계속해서 Connection을 생성할 필요가 없다. 즉, Connection pool을 사용 시 프로그램 효율과 성능이 전체적으로 증가한다.<br>
+Connection pool은 데이터베이스와 연결된 Connection객체를 사용하고 작업이 끝나면 다시 반환하는 것을 말한다. Connection pool을 사용하면 풀 속에 미리 Connection이 생성되어 있기 때문에 Connection을 생성하는 데 드는 연결시간이 소비되지않는다. 또, Connection 재사용이 가능하기 때문에 사용자가 접속할 때마다 계속해서 Connection을 생성할 필요가 없다. 즉, Connection pool을 사용 시 프로그램 효율과 성능이 전체적으로 증가한다.
 <br>
-❔ JDBC (Java DataBase Connectivity)란? <br>
+<br>
+<br>
+<h3>❔ JDBC (Java DataBase Connectivity)란?</h3><br>
 자바와 데이터베이스의 DBMS를 연결시켜주는 응용프로그램 인터페이스이다.<br>
 데이터베이스의 DBMS 종류에 상관없이 독립적으로 사용이 가능하다는 장점이 있으며
 DB커넥션 방법 중 기본이라고 할 수 있다. <br>
 데이터베이스풀 방식을 사용하지않고 DB에서 정보를 가져올 때마다 매번 디비 연결을 열고 닫는 방식을 사용한다. 이 방식은 각 페이지에 database통신이 필요한 부분이 있을 때마다 디비 객체 생성, 커넥션 연결, 종료 등을 반복하기 때문에 효율성이 떨어진다는 단점이 있어 기본이 되긴해도 잘 사용되지않는다.
-<br><br>
-❔ DBCP (DataBase Connection Pool)란? <br>
+<br>
+<br>
+<br>
+<h3>❔ DBCP (DataBase Connection Pool)란?</h3><br>
 DB와 커넥션을 맺고 있는 객체를 관리하는 역할을 한다.
 어플리케이션을 시작할 때 원하는만큼 커넥션객체를 만들어서 pool에 넣어놓았다가 필요할 때 갖다쓰고 pool에 반납하는 방식을 사용한다. <br>
 다중스레드를 스레드풀로 관리하는 것과 비슷한 방식이다. <br>
-상용 어플리케이션에는 보통 pool방식을 사용한다. <br>
+상용 어플리케이션에는 보통 pool방식을 사용한다.
 <br>
-❔ JNDI (Java Naming and Directory Interface)란? <br>
+<br>
+<br>
+<h3>❔ JNDI (Java Naming and Directory Interface)란? </h3><br>
 데이터베이스 커넥션 풀을 이용하는 방식으로, DBCP는 DB커넥션 풀을 어플리케이션 소스단에 설정해놓은 방식이지만 JNDI는 WAS단에 DB커넥션풀을 미리 네이밍 해두는 방식을 사용한다.<br>
-이와 같은 방식은, DB설정 정보 파악이 쉽고 DB 커넥션풀을 효율적으로 사용할 수 있다. 
+이와 같은 방식은, DB설정 정보 파악이 쉽고 DB 커넥션풀을 효율적으로 사용할 수 있다.  
 <br>
 <span style="color:skyblue;">Reference.</span><br>
 https://zunoxi.tistory.com/58  <br>
@@ -52,10 +60,12 @@ https://eongeuni.tistory.com/43  <br>
 <br>
 <br>
 <br>
+<br>
+<br>
 <h2>💬Javascript에서 변수 var 선언하지않아도 되는 이유?</h2>
 var 문으로 선언되지 않는 변수에 대입하면 오류가 발생하지 않는다. 이유는 자바스크립트가 해당 변수를 자동으로 전역 변수로 선언 하기 때문인데<span style="color:gray;">(변수의 의도하지 않은 전역화)</span>, 이는 함수의 유효 범위와 관련이 있다. <br><br>
 <blockquote>
-<p><span style="color:yellow;">그렇다면 전역변수 사용은… 괜찮을까?</span> <br><br>
+<p><span style="color:orange;">그렇다면 전역변수 사용은… 괜찮을까?</span> <br><br>
    전역변수를 반드시 사용해야할 이유가 없다면 지역변수를 사용해야한다. <br></p>
 <blockquote>
 <p>❔전역 변수?<br> 모든 영역에서 사용할 수 있는 변수이다. 함수 호출과 같이 전역 코드를 실행하는 특별한 진입점이 없고 코드가 로드되자마자 곧바로 해석되고 실행된다. <br><br>
@@ -67,6 +77,7 @@ var 문으로 선언되지 않는 변수에 대입하면 오류가 발생하지 
 <p><span style="color:skyblue;">Reference.</span><br><br>
 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://creatijin.tistory.com/241">https://creatijin.tistory.com/241</a>  <br><br>
 행복해지는 HTML+CSS+JAVASCRIPT<br>
+<br><br>
 <br><br>
 <br><br>
 <br><br>
@@ -82,7 +93,8 @@ head에 작성 시 다른 문장들에 비해 먼저 해석되어 처리된다.
 2. body에 작성  
 일반적이진 않지만 body부분의 문장이 수행되는 도중에 자바스크립트 문장들이 반드시 기술되어야할 때 body영역에 자바스크립트를 기술한다.  <br>
 3. 외부파일로 작성  
-자바스크립트로 구성된 내용을 완전히 다른 파일(.js)로 작성한다. 파일 작성 시 script태그는 html 문서 내에서 스크립트 구문이 시작되는 위치를 알려주는 html태그이므로 자바스크립트 파일에서는 제외한다.  
+자바스크립트로 구성된 내용을 완전히 다른 파일(.js)로 작성한다. <br>
+파일 작성 시 script태그는 html 문서 내에서 스크립트 구문이 시작되는 위치를 알려주는 html태그이므로 자바스크립트 파일에서는 제외한다. <br> 
 html문서에 삽입하는 방법은 script 속성에서 src=".js"를 작성해주면 된다. 반복되는 내용일 경우 파일만 삽입하면 재사용이 가능하다는 장점이 있다.
 </pre>
 <br>
